@@ -1,0 +1,13 @@
+{% load static %}
+ 
+    <a href="/infolisting">Display</a>
+ 
+	<form method="POST" action="/user/inserted/"  id="user-id" enctype="multipart/user id">
+		{% csrf_token %}
+
+    Name  <input type="text" name="txt1" >
+       <br/>
+        <button type="submit" >Insert Data</button>
+	</form>
+</div>
+ 
